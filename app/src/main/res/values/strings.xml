@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">LoginApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="selected_language">English</string>
+    <string name="language">Hi, user</string>
+    <string name="tv_LoginHeader">Login</string>
+    <string name="welcomemessage">Please Sign in to continue</string>
+    <string name="username">Enter Email ID</string>
+    <string name="password">Password</string>
+    <string name="optionLanguage">Language</string>
+    <string name="optionSocialMedia">---------Use other method---------</string>
+    <string name="button_login">login</string>
+    <string name="button_sign">New user ? Register Now</string>
+    <string name="signuptitle">Create Account</string>
+    <string name="usernameRegiter">Username</string>
+    <string name="editTextTextEmailAddress">Email</string>
+    <string name="editTextTextPassword">Password</string>
+    <string name="editTextTextPassword2">Retype Password</string>
+    <string name="button">Sign Up</string>
+    <string name="button1">Already have an account ? Sign In</string>
+    <string name="welcomeTitle">Welcome</string>
+    <string name="txt">TextView</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_synch">Synch</string>
+    <string name="nav_trash">Trash</string>
+    <string name="nav_settings">Setting</string>
+    <string name="profileTitle">profile</string>
+    <string name="nav_profile">profile</string>
+    <string name="communicationTitle">communication</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_rate">Rateus</string>
+    <string name="nav_logout">Log Out</string>
+    <string name="title_activity_splash_screen" translatable="false">SplashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" tools:ignore="MissingTranslation">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

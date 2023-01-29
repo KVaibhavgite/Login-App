@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="app_name" translatable="false">LoginApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="selected_language">हिन्दी</string>
+    <string name="language">नमस्ते, उपयोगकर्ता</string>
+    <string name="tv_LoginHeader">लॉग इन करें</string>
+    <string name="welcomemessage">कृपया जारी रखने के लिए साइन इन करें</string>
+    <string name="username">ईमेल आईडी दर्ज करें</string>
+    <string name="password">पासवर्ड</string>
+    <string name="optionLanguage">भाषा</string>
+    <string name="optionSocialMedia">---------दूसरी विधि का प्रयोग करें---------</string>
+    <string name="button_login">लॉग इन करें</string>
+    <string name="button_sign" >नया उपयोगकर्ता ? अभी पंजीकरण करें</string>
+    <string name="signuptitle" >खाता बनाएं</string>
+    <string name="usernameRegiter" >उपयोगकर्ता नाम</string>
+    <string name="editTextTextEmailAddress" >ईमेल</string>
+    <string name="editTextTextPassword" >पासवर्ड</string>
+    <string name="editTextTextPassword2" >पासवर्ड फिर से लिखें</string>
+    <string name="button" >साइन अप करें</string>
+    <string name="button1" >पहले से ही एक खाता है ? साइन इन करें</string>
+    <string name="welcomeTitle" >स्वागत  है</string>
+    <string name="txt" >व्याख्यान दर्शन</string>
+    <string name="nav_home" >होम</string>
+    <string name="nav_message" >संदेश</string>
+    <string name="nav_synch" >सिंक करें</string>
+    <string name="nav_trash" >ट्रैश पृष्ठ</string>
+    <string name="nav_settings" >सेटिंग</string>
+    <string name="profileTitle" >प्रोफ़ाइल</string>
+    <string name="nav_profile" >प्रोफ़ाइल</string>
+    <string name="communicationTitle" >संचार </string>
+    <string name="nav_share" >शेयर करें</string>
+    <string name="nav_rate" >रेटस</string>
+    <string name="nav_logout" >लॉग आउट करें </string>
+</resources>

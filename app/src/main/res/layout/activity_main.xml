@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:background ="@drawable/background_login"
+    tools:context = ".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_LoginHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/tv_LoginHeader"
+        android:textColorHint="#1E1C1E"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/welcomemessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:text="@string/welcomemessage"
+        android:textColorHint="#1E1C1E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_LoginHeader"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:drawableLeft="@drawable/icons_username"
+        android:focusable="true"
+        android:fontStyle="normal"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#1E1C1E" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="-1dp"
+        android:drawableLeft="@drawable/icons_password"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:textColorHint="#1E1C1E" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="201dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="-186dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/tv_LoginHeader"
+        android:text="@string/button_login"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/button_sign"
+        android:layout_width="214dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="238dp"
+        android:text="@string/button_sign"
+        android:textColorHint="#1E1C1E"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/optionSocialMedia"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/optionSocialMedia" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/google"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="163dp"
+        android:src="@drawable/facebook"
+        />
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="206dp"
+        android:src="@drawable/twitter"
+        />
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="249dp"
+        android:src="@drawable/linkedin"
+        />
+
+    <TextView
+        android:id="@+id/optionLanguage"
+        android:layout_width="78dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="65dp"
+        android:text="@string/optionLanguage" />
+
+    <Spinner
+        android:id="@+id/action_bar_spinner"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="65dp" />
+
+
+</RelativeLayout>
+
+
